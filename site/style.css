@@ -1,0 +1,29 @@
+html{
+	
+	}
+	
+body{
+	width: 100%;
+	margin: 0;
+}
+
+
+body div{
+
+	width: 95%;
+}
+
+#popo{
+
+	width: 80%;
+}
+
+#kartinka{
+
+	margin-left: 50px;
+}
+
+#pedal1{
+
+	padding-top: 25px;
+}

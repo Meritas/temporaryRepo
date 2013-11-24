@@ -1,0 +1,188 @@
+html{
+
+	   height: 100%;
+	   overflow-x:hidden;
+}
+	
+	
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+#mainContainer{
+	height: 100%;
+	width: 100%;
+}
+#main{
+	width: 100%;
+	height: 100%;
+}
+
+#SearchLeftChat{
+	display: inline-block;
+	height: 100%;
+	width: 0%;
+	background-color: green;		
+	float: left;
+}
+
+#logoutBut{
+
+	position: relative;
+	top: 95%;
+	width: 100%;
+	height: 5%;
+	background-color: gold;
+	text-align: center;
+	line-height: 150%;
+}
+
+#logoutBut span{
+
+font-size: 0em;
+display: inline-block;
+vertical-align: middle;
+}	
+
+#HideBut {
+	opacity:0;
+	/*visibility: hidden;*/
+	float: left;
+	height: 100%;
+	width: 3px;
+	background-color: grey;
+}
+
+#WholePage{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+#UpperPage{
+	height: 25%;
+	width: 100%;
+	background-color: yellow;
+}
+
+#AvatarBox{
+	float: left;
+	margin-left: 4%;
+	display: inline-block;
+	height: 97%;
+	width: 20%;
+	background-color: pink;
+	background-image: url("./avatar_cat.jpg");
+	background-size: 100% 100%;
+}
+
+#NameBox{
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	height: 50%;
+	width: 50%;
+	background-color: black;
+	color: white;
+	font-size: 3em;
+}
+
+#PlaceBox{
+	float: left;
+	margin-left: 1%;
+	height: 30%;
+	width: 40%;
+	background-color: black;
+	border-top-color: white;
+	border-top-style: solid;
+}
+
+#CircleBox{
+	margin-top: -14%;
+	margin-right: -1%;
+	/*float: right;*/
+	position: absolute;
+	left: 80%;
+	top: 25%;
+	height: 40%;
+	width: 20%;
+	z-index: 2;
+	background-color: violet;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -khtml-border-radius: 50%;
+}
+
+#DownPage{
+	height: 75%;
+	width: 100%;
+	background-color: red;	
+}
+
+ul{
+	margin: 0px;
+}
+	
+
+.elementList{
+	padding: 0%;
+	padding-top: 4%;
+	margin-left: 5%;
+	height: 35%;
+}
+	
+.elementList li{
+	margin-right: 10%;
+	height: 100%;
+	width: 15%;
+	display: inline-block;
+}
+
+#JournalBox{
+	background-color: purple;
+}
+
+#PicturesBox{
+	background-color: brown;
+
+}
+
+#NotesBox{
+		background-color: silver;
+
+}
+
+#FriendsBox{
+	background-color: darkblue;
+}
+
+#LikedPagesBox{
+	background-color: darkgreen;
+}
+
+#ChatRoomBox{
+	background-color: orange;
+}
+
+#listContainer{
+	height: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ContactInformationBox{
+	height: 18%;
+	width: 90%;
+	background-color: darkviolet;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
